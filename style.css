@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(45deg, #ff007f, #00f0ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: glow 2s infinite alternate;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.game-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.game-section h2 {
+    font-size: 1.5rem;
+    color: #ff007f;
+    text-shadow: 0 0 10px #ff007f;
+    margin-bottom: 20px;
+}
+
+#snake-canvas {
+    border: 4px solid #ff007f;
+    background: #111;
+    box-shadow: 0 0 20px #ff007f;
+}
+
+.game-info {
+    margin-top: 20px;
+}
+
+.game-info p {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.reviews-section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.reviews-section h2 {
+    font-size: 1.5rem;
+    color: #00f0ff;
+    text-shadow: 0 0 10px #00f0ff;
+    margin-bottom: 20px;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto 30px;
+}
+
+.review-form select, .review-form textarea {
+    padding: 10px;
+    border: 2px solid #ff007f;
+    background: #111;
+    color: #fff;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.stars {
+    font-size: 1.5rem;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star {
+    transition: transform 0.2s, color 0.2s;
+}
+
+.star:hover, .star.selected {
+    color: #ffcc00;
+    transform: scale(1.2);
+}
+
+.review-form button {
+    padding: 10px;
+    background: #ff007f;
+    border: none;
+    color: #fff;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.review-form button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff007f;
+}
+
+#review-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.review-item {
+    background: #111;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #00f0ff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00f0ff;
+    animation: fadeIn 0.5s ease;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    border-top: 2px solid #ff007f;
+}
+
+@keyframes glow {
+    0% { text-shadow: 0 0 10px #ff007f, 0 0 20px #00f0ff; }
+    100% { text-shadow: 0 0 20px #ff007f, 0 0 40px #00f0ff; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    #snake-canvas {
+        width: 300px;
+        height: 300px;
+    }
+
+    .review-form {
+        padding: 0 20px;
+    }
+}

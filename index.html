@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Game Vault</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Retro Game Vault</h1>
+            <p>Jogue, avalie e celebre os clássicos!</p>
+        </header>
+        <!-- Jogo da cobra -->
+        <section class="game-section">
+            <h2>Snake Arcade</h2>
+            <canvas id="snake-canvas" width="400" height="400"></canvas>
+            <div class="game-info">
+                <p>Pontuação: <span id="score">0</span></p>
+                <p>Melhor: <span id="high-score">0</span></p>
+                <p>Use as setas para jogar!</p>
+            </div>
+        </section>
+        <!-- Comentário dos jogos -->
+        <section class="reviews-section">
+            <h2>Avalie Clássicos</h2>
+            <div class="review-form">
+                <select id="game-title">
+                    <option value="" disabled selected>Escolha um jogo</option>
+                    <option value="Pac-Man">Pac-Man</option>
+                    <option value="Super Mario Bros">Super Mario Bros</option>
+                    <option value="Tetris">Tetris</option>
+                    <option value="Space Invaders">Space Invaders</option>
+                    <option value="Donkey Kong">Donkey Kong</option>
+                </select>
+                <div class="stars" id="game-stars">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <textarea id="game-comment" placeholder="O que achou?"></textarea>
+                <button onclick="submitReview()">Avaliar</button>
+            </div>
+            <div id="review-list"></div>
+        </section>
+
+        <footer>
+            <p>© 2025 - Feito por @ekspedro</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
