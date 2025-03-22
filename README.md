@@ -8,6 +8,8 @@ Você pode **jogar Snake**, **deixar sua opinião sobre clássicos como Pac-Man 
 
 🔗 **[Acesse o Retro Game Vault ao vivo aqui!](https://pedroeks.github.io/front-end/)**
 
+**[Site para jogar jogos retrô!](https://www.gamestalgia.net/?utm_source=the_news&utm_medium=newsletter&utm_campaign=17-01-2025-1-1&_bhlid=bb0309ca4c65409f9363c524b1f4f428d211666f )**
+
 ---
 
 ## 🎮 Sobre o Projeto
