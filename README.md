@@ -83,28 +83,4 @@ Pronto! O projeto não depende de ferramentas externas ou build, então funciona
 
 ---
 
-## 🤝 Como Contribuir
-
-Adoraria ver ideias ou melhorias para o **Retro Game Vault**! Se quiser contribuir:
-
-1. **Faça um fork** deste repositório.
-2. **Crie uma branch** para sua feature:
-   ```bash
-   git checkout -b minha-feature
-   ```
-3. **Commit suas mudanças:**
-   ```bash
-   git commit -m "Adicionando minha feature"
-   ```
-4. **Envie para o repositório remoto:**
-   ```bash
-   git push origin minha-feature
-   ```
-5. **Abra um Pull Request** descrevendo o que você fez! 🚀
-
-**Sugestões legais:** adicionar **sons**, incluir **mais jogos retrô** ou criar um **leaderboard global**.
-
----
-
-
 🚀 **Desenvolvido por Pedro - [pedroEKS](https://github.com/pedroEKS)**
