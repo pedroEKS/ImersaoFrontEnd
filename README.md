@@ -42,45 +42,9 @@ Este projeto é uma vitrine do que aprendi na imersão e do meu potencial como d
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5**: Estrutura do site e integração com `canvas` para o jogo.
-- **CSS3**: Estilização com animações, sombras.
-- **JavaScript**: Lógica do jogo Snake, manipulação do DOM para as avaliações e uso de `localStorage` para persistência.
-- **Google Fonts - "Press Start 2P"**: Fonte retrô para a estética arcade.
-
-Essas tecnologias foram exploradas e aplicadas durante a **Imersão Front-End da Alura**, permitindo-me criar um projeto funcional e visualmente interessante.
-
----
-
-## 📦 Como Rodar Localmente
-
-Quer testar ou modificar o projeto no seu computador? É bem simples!
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/pedroEKS/retro-game-vault.git
-   ```
-
-2. **Entre na pasta do projeto:**
-   ```bash
-   cd retro-game-vault
-   ```
-
-3. **Abra o arquivo `index.html`:**
-   - Utilize um navegador (`Chrome`, `Firefox`, etc.)
-   - Ou rode com um servidor local como o **Live Server** no VS Code.
-
-Pronto! O projeto não depende de ferramentas externas ou build, então funciona direto no browser. 🚀
-
----
-
 ## 🌟 Destaques do Código
 
 - **Snake:** Implementei a lógica do jogo com `canvas`, utilizando um loop controlado por `setTimeout` e `requestAnimationFrame` para animações suaves.
 - **Persistência:** Usei `localStorage` para salvar a **melhor pontuação do Snake** e as **avaliações dos usuários**.
 - **Design:** Criei um **visual retrô** com **gradientes, sombras neon e animações CSS**, aplicando conceitos refinados durante a imersão.
 
----
-
-🚀 **Desenvolvido por Pedro - [pedroEKS](https://github.com/pedroEKS)**
