@@ -6,7 +6,7 @@ Este site é uma homenagem aos jogos retrô, combinando um clássico **jogo da c
 
 Você pode **jogar Snake**, **deixar sua opinião sobre clássicos como Pac-Man e Super Mario Bros**, e conferir como apliquei os conceitos aprendidos na imersão. O site está hospedado no **GitHub Pages** para fácil acesso.
 
-🔗 **[Acesse o Retro Game Vault ao vivo aqui!](https://pedroeks.github.io/front-end/)**
+🔗 **[Acesse o Retro Game Vault ao vivo aqui!](https://pedroeks.github.io/ImersaoFrontEnd/)**
 
 **[Site para jogar jogos retrô!](https://www.gamestalgia.net/)**
 
